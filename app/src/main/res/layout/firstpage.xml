@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".FirstpageActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:queryHint="Where do you wants to visit"
+            app:iconifiedByDefault="false"
+            ></androidx.appcompat.widget.SearchView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Dhaka"
+            android:background="@drawable/dhaka"
+            android:layout_marginTop="40dp"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/cox"
+            android:text="Cox-Bazar"
+            android:layout_marginTop="20dp"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Shylet"
+            android:background="@drawable/sylhet"
+            android:layout_marginTop="20dp"
+            ></Button>
+
+    </LinearLayout>
+
+</ScrollView>
